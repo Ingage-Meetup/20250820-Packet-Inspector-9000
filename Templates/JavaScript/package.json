@@ -1,0 +1,15 @@
+{
+  "name": "c3-meetup",
+  "version": "1.0.0",
+  "description": "C3 Meetup Scaffolding",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "test:watch": "npx jest --watchAll"
+  },
+  "author": "Ingage Partners",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
