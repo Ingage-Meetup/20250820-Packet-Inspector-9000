@@ -1,13 +1,5 @@
 import unittest
-from app.main import main
 from app.utils import add, validate_integrity, break_into_digits, bulk_filter
-
-
-class TestMain(unittest.TestCase):
-    def test_main(self):
-        # Add your test cases here for the main function.
-        pass
-
 
 class TestUtils(unittest.TestCase):
     def test_add(self):

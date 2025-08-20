@@ -1,3 +1,6 @@
+import re
+
+
 def add(a, b):
     return a + b
 
@@ -25,6 +28,8 @@ def break_into_digits(input: int) -> list[int]:
 
 
 def bulk_filter(max_num: int):
+    '''Implemented as a generator function, can be coalesced to list at call
+    site if needed.'''
     for x in range(0, max_num + 1):
         if validate_integrity(x):
             yield x
